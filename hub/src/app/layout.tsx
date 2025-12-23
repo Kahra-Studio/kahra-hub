@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font} max-w-6xl mx-auto antialiased py-6 space-y-12`}>
+      <body className={`${font} max-w-6xl mx-auto antialiased space-y-6`}>
         <NavbarDefault />
         {children}
         <FooterDefault />

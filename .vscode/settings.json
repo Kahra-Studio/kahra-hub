@@ -1,0 +1,55 @@
+{
+  // ====== Genel Ayarlar ======
+  "window.titleBarStyle": "native",
+  // macOS native başlık çubuğu
+  "window.customTitleBarVisibility": "never",
+  "window.zoomLevel": 0,
+  // normal zoom
+  "editor.fontFamily": "Roboto, SF Mono, 'Menlo', Monaco, Courier New, monospace",
+  // macOS sistem fontları
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+  // ====== Tema ve Görünüm ======
+  "workbench.colorTheme": "Default Dark Modern",
+  // macOS koyu tema vibe
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  // açılışta boş ekran
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  // macOS sade görünüm
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.scrollBeyondLastLine": true,
+  "editor.roundedSelection": true,
+  // ====== İpuçları & Kullanım ======
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": true,
+  "workbench.statusBar.visible": true,
+  // ====== Kod Düzeni ======
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true,
+  // ====== Terminal ======
+  "terminal.integrated.fontFamily": "SF Mono, Menlo, Monaco, monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorBlinking": false,
+  // ====== macOS Özel ======
+  "window.nativeTabs": true,
+  "window.nativeFullScreen": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.lineHeight": 1.1
+}
